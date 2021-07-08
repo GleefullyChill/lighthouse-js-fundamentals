@@ -1,10 +1,10 @@
 for (let repeat =100; repeat != 201; repeat++) {
   
-  if (repeat % 3 === 0);{
+  if(repeat % 3 === 0){
     console.log("loopy");
-  }   else if (repeat % 4 === 0){
+  } else if (repeat % 4 === 0){
       console.log("lighthouse");
-  }   else {
+  } else {
       console.log(repeat);
   }
 }
